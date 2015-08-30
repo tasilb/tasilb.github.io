@@ -1,12 +1,15 @@
 # Site settings
 title: Moon in the Water
-email: david@tasilb.me
 description: > # this means to ignore newlines until "baseurl:"
     David's internet sardine can.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "tasilb.me" # the base hostname & protocol for your site
 twitter_username: tasilb
 github_username:  tasilb
+
+# Blog settings
+paginate: 5
+paginate_path: "/blog/:num/"
 
 # Build settings
 markdown: kramdown
