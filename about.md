@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-My name is David Tsai, and I study computer science at the University of California, Berkeley.
+My name is David Tsai, and I study computer science at UC Berkeley.
 
-Reach me anytime about anything at tcdavid372 (at) gmail
+Reach me at tcdavid372 (at) g m a i l

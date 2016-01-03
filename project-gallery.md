@@ -1,8 +1,13 @@
 ---
 layout: page
-title: Portfolio
-permalink: /portfolio/
+title: Project Gallery
+permalink: /pg/
 ---
+### Things I'm working on
+
+#### [Auto Auto](http://calautogolf.github.io/)
+I'm trying to make vehicles drive themselves.
+
 ### Small gizmos
 
 #### [Pet the Doge](http://petthedoge.meteor.com)
