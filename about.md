@@ -6,4 +6,8 @@ permalink: /about/
 
 My name is David Tsai, and I study computer science at UC Berkeley.
 
-Reach me at tcdavid372 (at) g m a i l
+Check out my coursework and experience on my [resume](/static/DavidTsaiResumeJan16.pdf).
+
+My config files (plaintext): [.vimrc](/static/vimrc.txt) [.tmux.conf](/static/tmux.txt)
+
+Reach me at tcdavid372 (at) g m a i l if you'd like to get in touch.

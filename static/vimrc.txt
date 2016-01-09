@@ -1,0 +1,37 @@
+colorscheme solarized
+set background=dark
+
+syntax enable
+
+filetype plugin on
+filetype indent on
+
+set tabstop=4
+set softtabstop=4
+set shiftwidth=4
+set expandtab
+set number
+set showcmd
+set cursorline
+set wildmenu
+set lazyredraw
+set showmatch
+set mouse=a
+set noea " Keep split sizes when closing a split
+set noeb " No error bells
+set wmh=0 " Minimum window height
+set wmw=0 " Minimum window width
+
+nnoremap j gj
+nnoremap k gk
+vnoremap j gj
+vnoremap k gk
+
+nnoremap <C-H> <C-W>h
+nnoremap <C-J> <C-W>j
+nnoremap <C-K> <C-W>k
+nnoremap <C-L> <C-W>l
+
+autocmd FileType html setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType javascript setlocal shiftwidth=2 tabstop=2 softtabstop=2
+autocmd FileType gitcommit setlocal tw=72
