@@ -3,14 +3,19 @@ layout: page
 title: Project Gallery
 permalink: /pg/
 ---
-### Things I'm working on
 
-#### [Auto Auto](http://calautogolf.github.io/)
-I'm trying to make vehicles drive themselves.
+### Computational photography
 
-### Small gizmos
+My project reports for the computational photography/image processing course at Berkeley
 
-#### [Pet the Doge](http://petthedoge.meteor.com)
+- [Colorizing the Prokudin-Gorskii collection](https://inst.eecs.berkeley.edu/~cs194-26/fa16/upload/files/proj1/cs194-26-aam/)
+- [Pinhole camera](https://inst.eecs.berkeley.edu/~cs194-26/fa16/upload/files/proj2/cs194-26-adt/)
+- [Fun with frequencies](https://inst.eecs.berkeley.edu/~cs194-26/fa16/upload/files/proj3/cs194-26-aam/)
+- [Seam carving](https://inst.eecs.berkeley.edu/~cs194-26/fa16/upload/files/proj4/cs194-26-aam/)
+
+### Web gizmos
+
+#### <s>Pet the Doge</s> RIP free Meteor hosting
 A clicker game featuring doge. Try to pet doge 666 times.
 
 #### [Pixel Plots](http://pixelplots.herokuapp.com)
