@@ -1,13 +1,26 @@
+" [plugin][manager] pathogen
+execute pathogen#infect()
+
+" [plugin] airline
 let g:airline_powerline_fonts = 1
 let g:airline_theme='base16'
 
+" [plugin] syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" Color scheme
 colorscheme solarized
 set background=dark
 
-syntax enable
-
-filetype plugin on
-filetype indent on
+syntax on
+filetype plugin indent on
 
 set autoread
 set so=7
@@ -23,13 +36,17 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set expandtab
+set lcs=tab:>-
+
 set number
 set showcmd
 set cursorline
 set wildmenu
 set lazyredraw
 set showmatch
+set ttyfast
 set mouse=a
+set ttymouse=xterm2
 set noea " Keep split sizes when closing a split
 set noeb " No error bells
 set wmh=0 " Minimum window height
@@ -40,11 +57,13 @@ set laststatus=2
 set lbr
 set tw=500
 
+" Line navigation binds
 nnoremap j gj
 nnoremap k gk
 vnoremap j gj
 vnoremap k gk
 
+" Pane navigation binds
 nnoremap <C-H> <C-W>h
 nnoremap <C-J> <C-W>j
 nnoremap <C-K> <C-W>k
